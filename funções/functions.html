@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+</head>
+
+<body>
+    <script>
+        // Desafio 1
+        // var lista = [1, 2, 3, 4, 5]
+
+        // function somaNumeros (a) {
+        //     var soma = 0
+        //     for (var percorre = 0; percorre < a.length; percorre++){
+        //         soma = soma + a[percorre]
+        //     }
+        //     return soma
+        // }
+
+
+        // Desafio 2 
+        // var lista = ["Henri", "Lara", "Basqueroto", "Gustavo"]
+
+        // function Adiciona (a, item) {
+        //     a.push(item)
+        // }
+
+        // function Listar (a) {
+        //     return a
+        // }
+
+
+        // Desafio 3
+        function verifica_Primo (a) {
+            var primo = "É primo"
+            if (a === 1){
+                primo = "Não é primo"
+            }
+
+            for (var percorre = 2; percorre < a; percorre++){
+                if (a % percorre === 0){
+                    primo = "Não é primo"
+                }
+            }
+            return primo
+        }
+
+        
+
+
+    </script>
+</body>
+
+</html>

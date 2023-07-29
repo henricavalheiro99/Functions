@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex5</title>
+</head>
+<body>
+    <script>
+        var lista = [1, 2, 3, 4, 5, 6]
+
+        function filterEvenNumbers (a) {
+            var lista_pares = []
+
+            for (var percorre = 0; percorre < a.length; percorre++){
+                if (a[percorre] %2 == 0){
+                    lista_pares.push(a[percorre])
+                }
+            }
+
+            return lista_pares
+        }
+
+        console.log(filterEvenNumbers(lista))
+    </script>
+</body>
+</html>

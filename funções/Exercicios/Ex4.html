@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex4</title>
+</head>
+<body>
+    <script>
+        var lista = [1, 2, 3, 4, 5, 6]
+
+        function squares (a) {
+            var square_lista = []
+
+            for (var percorre = 0; percorre < a.length; percorre++){
+                square_lista.push(a[percorre] * a[percorre])
+            }
+
+            return square_lista
+        }
+
+        console.log(squares(lista))
+    </script>
+</body>
+</html>
